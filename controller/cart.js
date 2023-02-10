@@ -1,7 +1,6 @@
-// const productmodel = require ("../model/product");
 
-// const product = require("../controller/query");
 
+// this cart api should be modifies to the final developer taste
 const cartmodel = require("../model/add-product");
 
 exports.cartpage = (req, res) => {
