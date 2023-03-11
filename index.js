@@ -16,5 +16,9 @@ app.use("/", query)
 
 app.use("/cart", cartnewpage)
 
+app.get("/", (req,res)=>{
+    res.send("welcome")
+})
+
 // this is the port the backend is listening from
 app.listen(5000)
